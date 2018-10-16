@@ -1,0 +1,222 @@
+/*
+* Background Images - Practice
+* CSS Styles
+*
+*/
+
+
+/* General */
+body {
+	font-family: 'Open Sans', "Trebuchet MS", Geneva, sans-serif;/* крім
+Raleway додайте кілька запасних шрифтів */
+	background-color: #303030;
+	background-image: url(../img/bg.png); 
+}
+h1 {
+ 	font-size: 100px;
+ 	color: #fff;
+ 	font-family: 'Metal Mania', cursive;
+}
+h2 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #fff;	
+}
+.container{
+	text-align: center;	
+	width: 100%; 
+    max-width: 960px; 
+    margin: auto; 
+}
+img {
+ display: block;
+ max-width: 100%;
+ height: auto;
+}
+
+/* Header */
+header {
+	 background-image: url(../img/bg-01.jpg);
+	 background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 padding-bottom: 80px;
+	 min-height: 300px;
+	 text-align: center;
+	 clear: both;
+	 margin: 0px 0px 20px 0px;
+}
+#topbar .container{
+	margin: 0px;
+	max-width: 100%;
+}
+header .menu {
+	 float: left;
+	 margin-bottom: 30px;
+	 background: rgba( 0, 0, 0, 0.5);
+	 width: 100%;
+	 list-style: none;
+	 height: 50px;
+	 padding-left: 200px;
+}
+ header .menu li {
+	 float: left;
+	 position: relative;
+ }
+header .menu a {
+    text-decoration: none;
+    padding:0 15px;
+    line-height:50px;
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+header .menu a:hover {
+    background:#D43737;
+}
+header .menu li > ul {
+    position: absolute;
+    
+    display: none;
+
+}
+header .menu li:hover > ul {
+    display: block;
+    width: 250px;
+}
+#header-button{
+	width: 300px;
+	height: 30px;
+	padding: 13px 0 0 0; 
+	font-size: 1em;
+}
+
+/* Tour */
+.madrid{
+	background-image: url(../img/tour/madrid.jpg);
+}
+.turin{
+	background-image: url(../img/tour/turin.jpg);
+}
+.hamburg{
+	background-image: url(../img/tour/hamburg.jpg);
+}
+.krakow{
+	background-image: url(../img/tour/krakow.jpg);
+}
+.tour-card {
+	 width: 20%;
+	 height: 160px;
+	 margin: 15px 5px;
+	 background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 padding-bottom: 80px;
+	 text-align: left;
+	 clear: both;
+	 color: #fff;
+	 padding: 15px;
+	 display: inline-block;
+}
+.tour-town{
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 5px;
+}
+.tour-place{
+	font-size: 10px;
+	padding: 5px;
+}
+.tour-date{
+	font-style: italic;
+	font-size: 10px;
+	padding: 5px;
+
+}
+.button{
+	display: inline-block;
+	 color: #fff;
+	 width: 100px;
+	 height: 20px;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 text-align: center;
+	 font-size: 0.8em;
+	 margin: 20px 25px;
+	 background-color: #D43737;
+	 background: linear-gradient(to right, #D43737, #d48777);
+	 padding: 7px 0 0 0;	 	 
+}
+
+/* Gallery */
+.photo{
+	float: left; 
+    width: 33.333333%; 
+    padding: 10px; 
+    box-sizing: border-box; 
+}
+.photo a:hover {
+    opacity: 0.5;
+}
+.photo a {
+    display: block;
+}
+/* Subscribe */
+#subscribe{
+	background-image: url(../img/bg-02.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+	min-height: 200px;
+	text-align: center;
+	clear: both;
+	margin: 0px 0px 20px 0px;
+}
+#subscribe p{
+	font-size: 0.85em;
+	color: #fff;
+	margin: 20px;
+}
+.subscribe-form input{
+	width: 150px;
+	height: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin: auto;
+}
+.subscribe-form button{
+	 color: #fff;
+	 width: 100px;
+	 height: 35px;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 text-align: center;
+	 font-size: 1em;
+	 background-color: #D43737;
+	 background: linear-gradient(to right, #D43737, #d48777);
+	 display: inline-block;
+	 margin: auto;
+}
+
+
+/* Footer */
+footer .container a{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	margin: 5px;
+}
+footer .container p{
+	color: #fff;
+	margin: 10px;
+}
+
+
+@media (max-width: 575px) {
+ .services .service {
+ width: 100%;
+ float: none;
+ }
+}
