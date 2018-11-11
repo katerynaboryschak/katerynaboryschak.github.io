@@ -1,0 +1,164 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet');
+	html,h1,h2,h3,h4,h5,h6,a{
+font-family: “Open+Sans”;
+}
+body{
+	background-color: rgba(245,230,230,0.65);
+}
+h1{
+color:#ca5a5b;
+margin: 2rem;
+}
+h2,h3{
+color:#ca5a5b;
+margin: 1rem;
+}
+
+.header{
+	background-image: url('../img/header.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.navbar{
+	background: rgba(39,39,39,.65)
+}
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+}
+.navbar-nav .active a{
+	color: #ca5a5b; 
+}
+.navbar-brand:hover{
+	color: #ca5a5b;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #f4f4f4;
+	color: #ca5a5b;
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.navbar-toggler{
+	background: #ca5a5b !important;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.3);
+}
+.description{
+	margin: auto;
+	padding: 8em 2em;
+}
+.description h1{
+	color:#f4f4f4 ;
+	background: rgba(205, 92, 92, 0.7);
+}
+.main-img{
+	padding: 1em;
+}
+.deviz h3{
+	color: #ca5a5b;
+}
+section {padding:5rem 0 0 0;}
+
+.proces{
+	color:#f4f4f4 ;
+	background: rgba(205, 92, 92, 0.3);
+}
+.proces img{
+	width: 50%;
+height: auto;
+
+}
+
+.news{
+margin: 4em 0;
+position: relative;
+}
+
+.news .card{
+box-shadow: 0 0 20px #ccc;
+}
+.news .card img{
+width: 100%;
+height: 12em;
+}
+.news .card-title{
+color:#ca5a5b;
+}
+.news .card-body{
+padding: 1em;
+}
+.news .card-footer a{
+	color:#ca5a5b;
+}
+
+.gallery{
+	margin: 4em 0;
+	position: relative;
+}
+
+.gallery img{
+	height: 15rem;
+	width: 100%;
+	margin: 2rem;
+}
+
+.contact-form{
+margin: 6em 0;
+position: relative;
+}
+.contact-form h1{
+padding:2em 1px;
+color: #ca5a5b;
+}
+.contact-form .right{
+max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+background: #ca5a5b;
+color: #fff;
+border:0;
+}
+.contact-form .right .form-control::placeholder{
+color: #888;
+font-size: 16px;
+}
+.card{
+	margin: 1em;
+}
+.footer {
+	width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background: rgba(39,39,39,.65);
+}
+.text-muted {
+    color: #fff!important;
+}
+.content{
+	margin-top: 4em;
+}
+
+.teachers li{
+	font-size: 1.2em;
+}
+.marketing .col-lg-4 {
+    margin: 3rem 0 3rem 0;
+    text-align: center;}
+
+@media (min-width: 576px) { ... }
+
+@media (min-width: 768px) { ... }
+
+@media (min-width: 992px) { ... }
+
+@media (min-width: 1200px) { ... }
